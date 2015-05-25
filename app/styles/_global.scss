@@ -1,0 +1,86 @@
+/* COULEUR DU LOGO ALIENOR :;
+* vert #1ca354			rgba(28, 163, 84, 1)
+* turquoise #059b7e		rgba(5, 155, 126, 1)
+* bleu ciel #087ab6		rgba(8, 122, 182, 1)
+* bleu foncé #273069	rgba(39, 48, 105, 1)
+* violet #975a93		rgba(151, 90, 147, 1)
+* rouge #af0e13			rgba(175, 14, 19, 1)
+* rose #ff3366			rgba(255, 51, 102, 1)
+* orange #f17431		rgba(241, 116, 49, 1)
+* jaune #f0ba19			rgba(240, 186, 25, 1)
+*/
+
+/*
+*
+* Base (body, p, h1, h2, ...)
+*
+*/
+
+* {	box-sizing : border-box; }
+
+html, body {
+	height           : 100%;
+	width            : 100%;
+	margin           : 0;
+	padding          : 0;
+	background-color : #FFF;
+	font-family      : "Trebuchet MS", Helvetica, sans-serif;
+	font-size        : 1em;
+	color            : #000;    
+}
+
+img {
+ 	max-width : 100%;
+ 	height    : auto;
+}
+
+h1 {
+	font-size    : 1.2em;
+	color        : rgb(20, 24, 35);
+} h2 {
+	font-size   : 1.1em;
+	color       : rgb(5, 155, 126);
+} h3 {
+	font-size   : 1em;
+	color       : rgb(231, 64, 81);
+} h4 {
+	font-size   : .9em;
+	color       : rgb(237, 116, 45);
+} h5 {
+	font-size   : .8em;
+	color       : rgba(0, 0, 0, .3);
+	font-style  : italic;
+	font-weight : bolder;
+}
+
+h1, h2, h3, h4, h5 {
+	font-weight  : lighter;
+	margin       : .3em 0;
+}
+
+p {	font-size : .8em; }
+
+input {
+	height        : 44px;
+	padding-left  : 20px;
+	border        : 0;
+	border-radius : 3px;
+	font-size     : 1em;
+	-webkit-appearance : none;
+}
+
+button {
+	height        : 44px;
+	border        : 0;
+	border-radius : 3px;
+}
+
+a {
+	text-decoration: none;
+	color : #2980b9;
+}
+
+ul {
+	padding-left : 0px;
+}
+

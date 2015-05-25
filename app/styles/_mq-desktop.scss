@@ -1,0 +1,76 @@
+
+
+/* Desktop */
+@media(min-width : 992px) {
+
+	h1 {
+		font-size    : 3em;
+		padding-left : 90px;
+		margin       : .5em 0 1em 0;
+	} h2 {
+		font-size    : 2.5em;
+		margin       : .6em 0 1em 0;
+	} h3 {
+		font-size   : 2em;
+	} h4 {
+		font-size   : 1.5em;
+	} h5 {
+		font-size   : 1em;
+		font-style  : italic;
+		font-weight : bolder;
+	}
+
+	/**
+	* TOPBAR
+	**/
+	.topbar {
+		height : 66px;
+	} .topbar-logo {
+		padding : 5px;
+	}
+
+	.menubar nav {
+		margin-left: 110px;
+	}
+	.menubar {
+		margin-left: 0px;
+		width: 100%;
+	}
+	.menubar li {
+		padding : 0px 10px;
+	}
+	
+	.topbar-tools {
+		padding-right : 30px;
+	} .topbar-icon {
+		width        : 46px;
+		padding-left : 10px;
+	}
+	.icon{
+		height: 66px;
+		width: 66px;
+		line-height: 66px;
+	} .topbar-icon-bell {
+		right: 66px;
+	}
+	.menubar-btncnx {
+		display          : block;
+		line-height      : 44px;
+		width            : 100px;
+		margin-top       : 10px;
+		padding          : 0 10px;
+		background-color : rgba(143, 196, 100, 1); 
+		opacity          : .9;
+		border-radius    : 10px;
+		position         : absolute;
+		right            : 20px;
+	} .topbar-icon-bell {
+		right : 120px;
+	} .topbar-icon-search {
+		right : 175px;
+	}
+
+	.topbar-search {
+		display: none;
+	}
+}

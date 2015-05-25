@@ -1,0 +1,11 @@
+<div class="l-menubar menubar"> <!-- menubar-is-active -->
+	<div class="menubar-btncnx clickable">Connexion</div>
+
+	<nav>
+		<ul>
+			<a ng-repeat="category in menu" href="{{category.id}}" title="{{category.title}}"><li class="clickable">
+				{{category.title}}
+			</li></a>
+		</ul>
+	</nav>
+</div>

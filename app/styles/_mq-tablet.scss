@@ -1,0 +1,69 @@
+
+
+/* Tablette */
+@media (min-width : 768px) {
+       
+    .topbar {
+		height: 66px;
+		padding : 11px 5px;
+    }.topbar-logo {
+        margin : 0;
+    }
+    .topbar-icon-menu {
+    	display : none;
+    }
+    
+	.menubar {
+		height           : 66px;
+		font-size        : .9em;
+		background-color : transparent;
+		position         : absolute;
+		transform        : translateX(0);
+		margin-left     : 80px;
+	} .menubar li {
+		line-height    : 66px;
+		height         : 60px;
+		text-align     : center;
+	} .menubar a {
+		height : 100%;
+		display: inline-block;
+		padding: 0px 10px;
+	} 
+	.menubar a:first-child { border-right : none; }
+	.menubar a:nth-child(2) { border-right : none; }
+	.menubar a:nth-child(3) { border-right : none; }
+	.menubar a:nth-child(4) { border-right : none; }
+	.menubar a:nth-child(5) { border-right : none; }
+	.menubar a:nth-child(6) { border-right : none; }
+	.menubar a:nth-child(7) { border-right : none; }
+	.menubar a:nth-child(8) { border-right : none; }
+
+	.menubar a:first-child:hover { border-bottom : rgba(143, 196, 100, 1) 5px solid; }
+	.menubar a:nth-child(2):hover { border-bottom : rgba(0, 170, 215, 1) 5px solid; }
+	.menubar a:nth-child(3):hover { border-bottom : rgba(47, 71, 148, 1) 5px solid; }
+	.menubar a:nth-child(4):hover { border-bottom : rgba(144, 143, 198, 1) 5px solid; }
+	.menubar a:nth-child(5):hover { border-bottom : rgba(242, 147, 188, 1) 5px solid; }
+	.menubar a:nth-child(6):hover { border-bottom : rgba(224, 30, 38, 1) 5px solid; }
+	.menubar a:nth-child(7):hover { border-bottom : rgba(251, 174, 58, 1) 5px solid; }
+	.menubar a:nth-child(8):hover { border-bottom : rgba(255, 219, 0, 1) 5px solid; }
+
+	.menubar-btncnx {
+		display: none;
+	}  .icon {
+		height: 66px;
+		width: 66px;
+		line-height: 66px;
+	} .topbar-icon-bell {
+		right : 66px;
+	}
+
+    /*.topbar-btncnx {
+        line-height      : 44px;
+        margin-top       : 10px;
+        padding          : 0 20px;
+        background-color : rgba(143, 196, 100, 1); 
+        opacity          : .9;
+        float            : left;
+        border-radius    : 10px;
+    }*/
+}
